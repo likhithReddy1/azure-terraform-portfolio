@@ -1,0 +1,27 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+
+# Sensitive credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+dist/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/

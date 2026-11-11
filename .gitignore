@@ -25,3 +25,12 @@ Thumbs.db
 
 # Editor settings
 .vscode/
+
+# Terraform generated files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+*.tfvars
+*.auto.tfvars
